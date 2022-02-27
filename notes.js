@@ -53,8 +53,9 @@ const listNotes = () => {
     console.log(chalk.blue.inverse('Your notes'))
     const notes = loadNotes()
     notes.forEach( (a) => {
-        console.log(a.title)
-        console.log(a.body)
+        console.log('')
+        console.log('title : ' + a.title)
+        console.log('body : ' + a.body)
     })
 }
 
