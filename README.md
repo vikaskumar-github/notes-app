@@ -1,7 +1,7 @@
 # notes-app
 
-run app from console <br>
-node .\app.js add --title="note1" --body="first note"  
+run app from console <br><br>
+node .\app.js add --title="note1" --body="first note"
 <br>
 node .\app.js list 
 <br>
